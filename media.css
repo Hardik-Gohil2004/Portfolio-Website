@@ -1,0 +1,33 @@
+@media(max-width:992px){
+    nav .container .logo{
+   margin-left: 10px;
+}
+nav .container ul li a{
+    margin-left: 10px;
+}
+ body {
+      padding-top:120px;
+   }
+   section .container .downloadcv{
+    margin-top: 10px;
+    margin-left: auto;
+   }
+   section .container .linkdin{
+    margin-left: auto;
+   }
+   section .container p{
+    font-size:17px;
+    text-align: left;
+    line-height: 30px;}
+    .contact h3{
+    font-size: 30px;
+    font-weight: 600;
+     padding-top: 20px;
+}
+.contact .contact-card p a{
+    color: black;
+    font-size: 17px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+}

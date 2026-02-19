@@ -1,0 +1,270 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+body{
+    padding-top: 100px;
+     transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Dark Mode Base */
+body.dark {
+  background-color: #121212;
+  color: #ffffff;
+}
+ body.dark .text-muted {
+  color: #ffffff !important;
+} 
+body.dark .projectbtn {
+  color: #ffffff !important;
+}
+body.dark .downloadcv:hover {
+  color: #ffffff !important;
+}
+body.dark a:hover{
+    color: #ffffff !important;
+}
+body.dark .github-btn:hover {
+  color: #000000 !important;
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+
+/* navbar*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 20px 0;
+    position:fixed;
+    top: 0;
+    width: 100%;
+    background: linear-gradient(135deg, #1f1f1f, #8e2de2);;
+    z-index: 1000;
+}nav .container{
+    padding: 15px 0;
+}
+nav .container .logo{
+    font-size:25px;
+    color: #ffffff;
+    font-weight:500;
+}
+nav .container ul li a{
+   text-decoration: none;
+    margin-right:60px;
+    color:white;
+    font-weight: 400;
+    font-size: 22px;
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+}
+nav .container ul li a::after{
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    left: 0;
+    bottom: -5px;
+    background-color: #ffffff;
+    transition: 0.3s ease;
+    color: white;
+}
+nav .container ul li a:hover{
+    color: white !important;
+}
+nav .container ul li a:hover::after{
+    width: 100%;
+    color:white !important;
+}
+nav .container ul li a.active {
+    color:white !important;
+}
+
+nav .container ul li a.active::after{
+    width:100%;
+    color: white !important;
+}
+/* Home*/
+section .hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 10%;
+}
+section .container h1 span{
+  font-weight: 700;
+}
+section .container h4{
+    font-size: 30px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+section .container p{
+    font-size: 17px;
+    margin-top: 20px;
+    line-height: 25px;
+}
+section .container .downloadcv{
+background: linear-gradient(135deg, #1f1f1f, #8e2de2);;
+color: white;
+padding: 10px 30px;
+font-size: 20px;
+margin-left: 15px;
+}
+section .container .downloadcv:hover{
+    background: transparent;
+    border: 2px solid #4A47A3;
+    color: black;
+}
+section .container .projectbtn{
+    background-color: transparent;
+    border: 2px solid #014366;
+    color: black;
+    padding: 10px 30px;
+    font-size: 20px;
+}
+section .container .projectbtn:hover{
+    background: linear-gradient(135deg, #014366, #00c6ff);
+    color: white;
+}
+/* About*/
+section .container h2{
+    font-weight: 700;
+    font-size: 40px;
+    display: inline-block;
+    border-bottom: 4px solid #4A47A3;
+}
+    
+section .container p{
+    font-size: 20px;
+    text-align: left;
+    line-height: 30px;
+}
+section .container p span{
+    font-weight: 700;
+    font-size: 22px;
+}
+section .container .github{
+    background: linear-gradient(135deg, #1f1f1f, #8e2de2);
+    padding: 15px 60px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease;
+    border: 1px solid #1f1f1f;
+    display: inline-block;   
+    margin-top: 25px;
+}
+section .container .github:hover{
+    background: transparent;
+    color: black;
+    border: 3px solid #8e2de2;
+}
+section .container .linkdin{
+    background: linear-gradient(135deg, #014366, #00c6ff);
+    padding: 15px 60px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease;
+    border: 1px solid #1f1f1f;
+    display: inline-block;   
+    margin-top: 25px;
+    margin-left:30px;
+} 
+section .container .linkdin:hover{
+    background: transparent;
+    border: 3px solid #014366;
+    color: black;
+}
+/* Skills*/
+section .container .skill-box{
+    background: white;
+    color: rgb(0, 0, 0);    
+    padding: 25px 35px;
+    border-radius: 15px;
+    font-weight: 600;
+    font-size: 20px;
+    transition: 0.3s;
+    box-shadow: 0 25px 60px rgba(0,0,0,0.15);
+}
+section .container .skill-box i{
+    color: black;
+    margin-right: 5px;
+}
+ section .container .skill-box:hover {
+    background:linear-gradient(180deg, #b3b0b0, #ffffff);
+    transform: translateY(-25px);
+   
+}
+/* Projects*/
+.projects .container h5{
+    font-size: 23px;
+}
+.projects .container p{
+    font-size: 17px;
+}
+.projects .container a{
+    background: linear-gradient(135deg, #1f1f1f, #8e2de2);
+    padding: 15px 60px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease;
+    border: 1px solid #1f1f1f;
+}
+.projects .container a:hover{
+    border: 2px solid #8e2de2;
+    background: transparent;
+    color: black;
+}
+/*Contact*/
+.contact h3{
+    font-size: 30px;
+    font-weight: 600;
+}
+.contact p{
+    font-size: 22px;
+    color: black;
+}
+.contact .contact-card {
+    background: white;
+    color: rgb(0, 0, 0);    
+    padding: 25px 35px;
+    border-radius: 15px;
+    font-weight: 600;
+    font-size: 20px;
+    transition: 0.3s;
+    box-shadow: 0 25px 60px rgba(0,0,0,0.15);
+}
+.contact .contact-card p a{
+    color: black;
+    font-size: 22px;
+    margin-left: 20px;
+    text-decoration: none;
+   
+}
+.contact .contact-card p a i{
+    color: black;
+    margin-right: 5px;
+}
+.contact .contact-card:hover {
+    transform: translateY(-25px);
+}
+/* footer*/
+footer{
+    background: linear-gradient(135deg, #1f1f1f, #8e2de2);
+}
+
+

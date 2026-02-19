@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body>
+
+<!--Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+    <div class="container">
+        <a class="navbar-brand  logo" href="#">PORTFOLIO</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto align-items-lg-center">
+                <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                <button id="themeToggle" class="btn btn-outline-secondary ms-3">🌙</button>
+              </ul>
+        </div>
+    </div>
+</nav>
+<!--home-->
+<section id="home" class="hero d-flex align-items-center">
+    <div class="container">
+        <div class="row align-items-center">
+             <div class="col-lg-6">
+                <h1 class="mb-3">Hi, I'm<span> Hardik Gohil</span></h1>
+                <h4 class="display-5 ">Frontend Developer</h4>
+                <p class="mt-3">
+                    Frontend Developer passionate about creating responsive and
+          user-friendly websites using modern web technologies like HTML, CSS,
+          JavaScript, and Bootstrap. I focus on clean design, smooth animations,
+          and performance optimization.
+                </p>
+                 <div class="mt-4">
+                    <a href="#projects" class="btn projectbtn me-3 px-4">View Projects</a>
+                    <a href="./Resume - Hardik Gohil.pdf" target="_main" class="btn downloadcv px-4">Download Resume</a>
+                </div>
+            </div>
+            <div class="col-lg-6 text-center mt-5 mt-lg-0">
+                <img src="./images/coder.jpg"
+                     class="img-fluid hero-img rounded"
+                     alt="Project Image">
+            </div> </div></div>
+</section>
+<section id="about" class="py-5">
+    <div class="container">
+        <h2 class="fw-bold mb-2">About Me</h2>
+        <p class="mt-3">
+            I am a dedicated Frontend Developer with a strong foundation in HTML, CSS, JavaScript, and Bootstrap.
+        I enjoy creating responsive, user-friendly, and visually appealing websites that provide a smooth user experience.
+        I focus on writing clean and efficient code while continuously improving my skills by working on real-world projects.
+      </p>
+      <h4 class="mt-3">Education: </h4>
+        <p class="mt-3">
+          🎓 Bachelor of Computer Applications (BCA)<br>
+           Silver Oak University | 2025<br>
+           CGPA: <span>9.03</span>
+        </p>
+        <a href="https://github.com/Hardik-Gohil2004" class="mt-3 github">GitHub</a>
+        <a href="https://www.linkedin.com/in/hardik-gohil-57152137b/" class="mt-3 linkdin">LinkedIn</a>
+     </div>
+</section>
+<!--skills-->
+<section  id="skills" class="py-5 ">
+    <div class="container">
+     <h2 class=" mb-5">My Skills</h2>
+     <div class="row g-4 text-center row-cols-1 row-cols-lg-5 ">
+            <div class="col "><div class="skill-box"><i class="fa-brands fa-html5"></i>HTML5</div></div>
+            <div class="col"><div class="skill-box"><i class="fa-brands fa-css3-alt"></i>CSS3</div></div>
+            <div class="col"><div class="skill-box"><i class="fa-brands fa-js"></i>JavaScript</div></div>
+            <div class="col"><div class="skill-box"><i class="fa-brands fa-bootstrap"></i>Bootstrap</div></div>
+            <div class="col"><div class="skill-box"><i class="fa-brands fa-git-alt"></i>Git</div></div>
+            </div>
+        </div>
+    
+</section>
+<!--project-->
+<section  id="projects" class="projects py-5">
+  <div class="container">
+    <h2 class="mb-4">My Projects</h2>
+     <div class="row row-cols-1 row-cols-lg-3 g-4">
+      <div class="col">
+        <div class="card project-card h-100 shadow-sm">
+          <img src="./images/Rest.png" class="card-img-top" alt="Project Image">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title fw-bold">Food Website</h5>
+            <p class="card-text mt-2">
+             A fully responsive food ordering website built using HTML and CSS. The website showcases modern  design with smooth layouts, 
+             attractive food sections, and clean navigation. It is optimized for both desktop and mobile devices.
+            </p>
+             <p class="tech-stack mt-2">
+              <strong>Tech Stack:</strong> HTML, CSS
+            </p>
+            <a href="https://github.com/Hardik-Gohil2004/Food-Website" target="_main" class="btn  github-btn mt-2">
+              View on GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card project-card h-100 shadow-sm">
+          <img src="./images/RPS.png" class="card-img-top" alt="Project Image">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title fw-bold">Rock Paper Scissors Game</h5>
+            <p class="card-text mt-2">
+             This is a browser-based Rock Paper Scissors game developed using HTML, CSS, and JavaScript. 
+             The game features an interactive UI where users can select Rock, Paper, or Scissors, and the computer generates a random choice
+            </p>
+             <p class="tech-stack mt-2">
+              <strong>Tech Stack:</strong> HTML, CSS and JavaScript
+            </p>
+            <a href="https://hardik-gohil2004.github.io/Rock-Paper-Scissors-Game/"target="_main" class="btn  github-btn  mt-2">
+              View on GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card project-card h-100 shadow-sm">
+          <img src="./images/portfolio.png" class="card-img-top" alt="Project Image">
+           <div class="card-body d-flex flex-column">
+            <h5 class="card-title fw-bold">Portfolio Website</h5>
+            <p class="card-text mt-2">
+             This is a fully responsive personal portfolio website designed a
+             nd developed using HTML, CSS, and Bootstrap. 
+             The website highlights my technical skills, featured projects, and contact information in a structured and layout.
+            </p>
+             <p class="tech-stack mt-2">
+              <strong>Tech Stack:</strong> HTML, CSS, Bootstrap, JavaScript
+            </p>
+            <a href="#"target="_main"class="btn  github-btn mt-2">
+              View on GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<section class="contact">
+  <div class="container">
+    <h2>Contact</h2>
+     <h3 class="mb-2 text-center">Get In Touch</h3>
+    <p class="mb-5 text-center text-muted">Feel free to reach out for projects or collaboration.</p>
+    <div class="row g-4">
+      <div class="col-lg-4 col-md-6">
+        <div class="contact-card">
+           <p class="text-center"><a href="tel:9427892588"> <i class="fas fa-phone"></i>+91 9427892588</a></p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="contact-card">
+         <p class="text-center"><a href="mailto:hhgohil2004@gmail.com"> <i class="fas fa-envelope"></i>hhgohil2004@gamil.com</a></p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="contact-card">
+        <p class="text-center"><a href="https://wa.me/919427892588" target="_blank"><i class="fab fa-whatsapp"></i>Chat on WhatsApp</a></p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="contact-card">
+           <p class="text-center"><a href="https://github.com/Hardik-Gohil2004" target="_blank"> <i class="fab fa-github"></i>Github</a></p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="contact-card">
+        <p class="text-center"><a href="https://www.linkedin.com/in/hardik-gohil-57152137b/" target="_blank"><i class="fab fa-linkedin"></i>Linkedin</a></p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="contact-card">
+           <p class="text-center"><a href="https://www.instagram.com/harrrdiikk/" target="_blank"><i class="fab fa-instagram"></i>Instagram</a></p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+<footer class=" text-white pt-5 pb-3 mt-3">
+  <div class="container text-center">
+
+    <h4 class="fw-bold">Hardik Gohil</h4>
+    <p class="mb-2">Front-End Developer</p>
+    <p><i class="fas fa-map-marker-alt"></i> Ahmedabad, Gujarat, India</p>
+    <div class="mb-4">
+      <a href="https://github.com/Hardik-Gohil2004" class="text-white me-3 fs-4"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/hardik-gohil-57152137b/" class="text-white me-3 fs-4"><i class="fab fa-linkedin"></i></a>
+      <a href="https://www.instagram.com/harrrdiikk/" class="text-white me-3 fs-4"><i class="fab fa-instagram"></i></a>
+      <a href="https://wa.me/919427892588" class="text-white fs-4"><i class="fab fa-whatsapp"></i></a>
+    </div>
+    <hr class="bg-light">
+     <p class="mb-0">
+      © 2026 Hardik Gohil. All Rights Reserved.
+    </p>
+  </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
