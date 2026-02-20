@@ -30,4 +30,37 @@ nav .container ul li a{
     margin-left: 20px;
     text-decoration: none;
 }
+    .contact .contact-card p a{
+    color: black;
+    font-size: 17px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+section .container .skill-box{
+    background: white;
+    color: rgb(0, 0, 0);    
+    padding: 25px 35px;
+    border-radius: 15px;
+    font-weight: 600;
+    font-size: 20px;
+    transition: 0.3s;
+    box-shadow: 0 25px 60px rgba(0,0,0,0.15);
+    text-align: left;
+}
+section .container .skill-box i{
+    color: black;
+    margin-right: 5px;
+}
+.contact .contact-card {
+    background: white;
+    color: rgb(0, 0, 0);    
+    padding: 15px 30px;
+    border-radius: 15px;
+    font-weight: 600;
+    font-size: 20px;
+    transition: 0.3s;
+    box-shadow: 0 25px 60px rgba(0,0,0,0.15);
+}
+
+
 }
