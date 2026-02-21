@@ -42,7 +42,7 @@ section .container .skill-box{
     padding: 15px 20px;
     border-radius: 15px;
     font-weight: 600;
-    font-size:15px;
+    font-size: 18px;
     transition: 0.3s;
     box-shadow: 0 25px 60px rgba(0,0,0,0.15);
     text-align: left;
@@ -64,4 +64,5 @@ section .container .skill-box i{
 
 
 }
+
 
