@@ -261,10 +261,12 @@ section .container .skill-box i{
 }
 .contact .contact-card:hover {
     transform: translateY(-25px);
+    background:linear-gradient(180deg, #b3b0b0, #ffffff);
 }
 /* footer*/
 footer{
     background: linear-gradient(135deg, #1f1f1f, #8e2de2);
 }
+
 
 
